@@ -4,6 +4,10 @@ import librosa
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
+import os
+print("Current directory:", os.getcwd())
+print("Files in directory:", os.listdir())
+
 # โหลดโมเดลที่เทรนไว้
 model = load_model("compressed_sparse.h5")
 
