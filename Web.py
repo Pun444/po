@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # โหลดโมเดลที่เทรนไว้
-model = load_model("C:\Dataset\Lung\compressed_sparse.h5")
+model = load_model("compressed_sparse.h5")
 
 # รายชื่อโรคและข้อมูลคำแนะนำ
 disease_info = {
